@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".employeePageForTailors.EmployeePayment">
+
+    <TextView
+        android:id="@+id/tvNumSuits"
+        style="@style/text_view_login_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/num_suit" />
+
+    <EditText
+        android:id="@+id/inputNumSuits"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Employee Number of Suits"
+        android:ems="10"
+        android:hint="@string/num_suits"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tvWagePerSuit"
+        style="@style/text_view_login_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_per_suit_wage" />
+
+    <EditText
+        android:id="@+id/inputWagePerSuit"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Employee Number of Suits"
+        android:ems="10"
+        android:hint="@string/per_suit_wage"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:id="@+id/tvAmount"
+        style="@style/text_view_login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textColor="@color/red_500"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPayEmployee"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/pay" />
+
+    </LinearLayout>
+
+</LinearLayout>

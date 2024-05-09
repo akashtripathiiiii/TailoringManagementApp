@@ -1,0 +1,103 @@
+<resources >
+
+    <style name="Main_Theme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue_900</item>
+        <item name="colorPrimaryVariant">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/red_900</item>
+        <item name="colorSecondaryVariant">@color/red_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/blue_500</item>
+    </style>
+
+    <style name="Main_Theme_NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_900</item>
+        <item name="colorPrimaryVariant">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/red_900</item>
+        <item name="colorSecondaryVariant">@color/red_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/blue_500</item>
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+        <item name="actionBarTheme">@style/Theme.AppCompat.DayNight.DarkActionBar</item>
+    </style>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+
+    <style name="button_style">
+        <item name="textAllCaps">false</item>
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="normal_text_view">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/blue_700</item>
+    </style>
+
+    <style name="text_view_login_signup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">40sp</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginEnd">40sp</item>
+        <item name="android:textColor">@color/blue_702</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="text_view_recycle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">40sp</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:layout_marginEnd">40sp</item>
+        <item name="android:textColor">@color/blue_702</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="picker_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/blue_702</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="edit_text_login_signup">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">40sp</item>
+        <item name="android:layout_marginTop">25sp</item>
+        <item name="android:layout_marginEnd">40sp</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/styling_borders</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="edit_text_chatting">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginStart">5sp</item>
+        <item name="android:layout_marginBottom">5sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/styling_borders</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="image_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Main_Theme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Main_Theme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

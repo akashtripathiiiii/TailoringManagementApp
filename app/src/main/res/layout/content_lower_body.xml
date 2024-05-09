@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/length"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_length"
+           />
+        <EditText
+            android:id="@+id/inputLength"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Length of Cloth"
+            android:ems="10"
+            android:hint="@string/length"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/waist"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_waist"
+          />
+
+        <EditText
+            android:id="@+id/inputWaist"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Waist of Cloth"
+            android:ems="10"
+            android:hint="@string/waist"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/legOpenWidth"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_leg_open_width"
+             />
+
+
+
+
+        <EditText
+            android:id="@+id/inputLegOpenWidth"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Leg Open Width of Cloth"
+            android:ems="10"
+            android:hint="@string/leg_open_width"
+            android:inputType="numberDecimal"
+           />
+    </LinearLayout>
+

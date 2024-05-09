@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".customerPageForTailors.DialogNewCustDetails">
+
+    <TextView
+        android:id="@+id/tvNewCustomerId"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_id"
+        />
+    <EditText
+        android:id="@+id/inputNewCustomerID"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer ID (optional) "
+        android:ems="10"
+        android:hint="@string/identification_number_optional"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tvNewCustomerName"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_name"
+        />
+
+    <EditText
+        android:id="@+id/inputNewCustomerName"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer Name"
+        android:ems="10"
+        android:hint="@string/customer_name"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/tvNewCustomerPhoneNumber"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_phone_number"
+        />
+
+    <EditText
+        android:id="@+id/inputNewCustomerPhoneNumber"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer Phone Number"
+        android:ems="10"
+        android:hint="@string/customer_phone_number"
+        android:inputType="phone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelAddingCustomer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btnSaveNewCustomer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_Add" />
+    </LinearLayout>
+
+</LinearLayout>

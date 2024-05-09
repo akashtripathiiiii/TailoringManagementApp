@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Tailoring Management</string>
+    <string name="developer">T-Code</string>
+
+    <!-- Action Bar String Resources -->
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_setting">Setting</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="signup">Sign Up</string>
+    <string name="sign_up_screen">Sign up screen</string>
+    <string name="login_screen">Login_Screen</string>
+    <string name="forgot">Recover Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scrolling_view">Scrolling View</string>
+
+    <!-- Fragment Sign Up Customer String Resources -->
+    <string name="enter_your_full_name">Enter your full name:</string>
+    <string name="cus_name">Your Name</string>
+    <string name="enter_your_age">Enter your age:</string>
+    <string name="cust_age">Your Age</string>
+    <string name="enter_your_phone_number">Enter your phone number:</string>
+    <string name="cust_phone_number">Your Phone Number</string>
+    <string name="enter_your_email">Enter your email:</string>
+    <string name="cust_email_address">Your Email address</string>
+    <string name="enter_your_password">Enter your password:</string>
+    <string name="cust_password">Create Password</string>
+    <string name="confirm_password">Retype Password</string>
+    <string name="cust_retype_password">Confrim Password</string>
+
+    <!-- Fragment Sign Up Tailor String Resources -->
+    <string name="retype_password">Retype Password</string>
+    <string name="enter_shop_name">Enter your shop name:</string>
+    <string name="tailor_name">Your Name</string>
+    <string name="tailor_age">Your Age</string>
+    <string name="tailor_email">Your Email Address</string>
+    <string name="tailor_phone_number">Your Phone Number</string>
+    <string name="tailor_password">Create Password</string>
+    <string name="tailor_confirm_password">Confirm Password</string>
+    <string name="tailor_shop_name">Your Shop Name</string>
+
+    <!-- Drawer Menu String Resources -->
+    <string name="drawer_open">Open Drawer Navigation</string>
+    <string name="drawer_close">Close Drawer Navigation</string>
+
+    <!-- Drawer Menu String Resources -->
+    <string name="drawer_customer">Customers</string>
+    <string name="drawer_order">Orders</string>
+    <string name="drawer_employee">Employees</string>
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_my_shop">My Shop</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_report_bug">Report a Bug</string>
+    <string name="drawer_logout">Logout</string>
+
+    <!-- Drawer Header String Resources -->
+    <string name="drawer_header_user_name">Guest</string>
+    <string name="drawer_header_shop_name">Tailoring Shop</string>
+    <string name="drawer_header_email">guest@tcode.com</string>
+
+    <!-- Bottom Navigation Menu String Resources -->
+    <string name="home_bottom_nav_cust">Customers</string>
+    <string name="home_bottom_nav_order">orders</string>
+    <string name="home_bottom_nav_workers">Workers</string>
+
+    <!-- StartUp Activity String Resources -->
+    <string name="login_page">Login Page</string>
+    <string name="login">Login</string>
+    <string name="application_logo">Application Logo</string>
+    <string name="username_or_email">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up_as_customer">Sign Up as Customer</string>
+    <string name="sign_up_as_tailor">Sign Up as Tailor</string>
+    <string name="forget_your_account">Forget Your Email or Password?</string>
+    <string name="recover_your_account">Recover Your Account.</string>
+    <string name="Guest">Use As Guest</string>
+
+    <!-- SignUp Activity String Resources -->
+    <string name="signup_page">Sign Up Page</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!-- Lower Body String Resources -->
+    <string name="enter_length">Enter length:</string>
+    <string name="enter_waist">Enter waist:</string>
+    <string name="enter_leg_open_width">Enter leg open width:</string>
+    <string name="length">Length</string>
+    <string name="waist">Waist</string>
+    <string name="leg_open_width">Leg Open Width</string>
+
+    <!-- Pant String Resources -->
+    <string name="enter_thigh_width">Enter thigh width:</string>
+    <string name="thigh_width">Thigh Width</string>
+    <string name="enter_knee_width">Enter knee width:</string>
+    <string name="knee_width">Knee Width</string>
+    <string name="enter_back_rise">Enter back rise:</string>
+    <string name="back_rise">Back Rise</string>
+    <string name="enter_inseam_length">Enter inSeam Length:</string>
+    <string name="in_seam_length">In Seam Length</string>
+
+    <!-- Trouser String Resources -->
+    <string name="front_rise_length">Front Rise Length</string>
+    <string name="enter_front_rise_length">Enter front rise length:</string>
+
+
+    <!-- Upper Body String Resources -->
+    <string name="enter_chest_length">Enter Chest Length:</string>
+    <string name="chest_length">Chest Length</string>
+    <string name="enter_seat_length">Enter seat length:</string>
+    <string name="seat_length">Seat Length</string>
+    <string name="enter_shoulder_width">Enter shoulder width:</string>
+    <string name="shoulder_width">Shoulder Width</string>
+    <string name="enter_front_length">Enter front length:</string>
+    <string name="front_length">Front Length</string>
+    <string name="enter_back_length">Enter Back Length:</string>
+    <string name="back_length">Back Length</string>
+
+    <!-- Trouser String Resources -->
+    <string name="enter_sleeve_length">Enter sleeve length:</string>
+    <string name="sleeve_length">Sleeve Length</string>
+    <string name="enter_bicep_length">Enter bicep length:</string>
+    <string name="bicep_length">Bicep Length</string>
+    <string name="enter_cuff_length">Enter cuff length:</string>
+    <string name="cuff_length">Cuff Length</string>
+
+    <string name="enter_back_width">Enter back width:</string>
+    <string name="back_width">Back Width</string>
+    <string name="front_width">Front Width</string>
+    <string name="enter_front_width">Enter front width:</string>
+
+    <!-- Long Tunic String Resources -->
+    <string name="enter_strap_length">Enter strap length:</string>
+    <string name="strap_length">Strap Length</string>
+    <string name="enter_hemline_width">Enter hemline width:</string>
+    <string name="hemline_width">Hemline Width</string>
+    <string name="hemline_design">Hemline Design</string>
+    <string name="enter_hemline_design">Enter hemline design:</string>
+
+    <!-- Full Sleeve Shirt String Resources -->
+    <string name="strap_design">Strap Design</string>
+    <string name="enter_strapdesign">Enter strapdesign:</string>
+    <string name="shirt_bottom_design">Shirt bottom Design</string>
+    <string name="enter_shirt_bottom_design">Enter shirt bottom design:</string>
+
+    <!-- Half Sleeve String Resources -->
+    <string name="half_sleeve_width">Half Sleeve Width</string>
+    <string name="enter_half_sleeve_width">Enter half sleeve width:</string>
+    <string name="half_sleeve_length">Half Sleeve Length</string>
+    <string name="enter_half_sleeve_length">Enter half sleeve length:</string>
+
+    <!-- Waist Coat String Resources -->
+    <string name="enter_individual_shoulder">Enter individual shoulder:</string>
+    <string name="individual_shoulder">Individual Shoulder</string>
+    <string name="enter_first_button_position">Enter fist button position:</string>
+    <string name="first_button_position">First Button Position</string>
+
+    <!-- Dialog New Cust Details String Resources -->
+    <string name="add_customers">Add Customers</string>
+    <string name="enter_customer_id">Enter Customer ID:</string>
+    <string name="identification_number_optional">Identification Number (optional)</string>
+    <string name="enter_customer_name">Enter Customer Name:</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="enter_customer_phone_number">Enter Customer Phone Number:</string>
+    <string name="customer_phone_number">Customer Phone Number</string>
+    <string name="customer_id">Customer ID : %d</string>
+    <string name="btn_Add">Add</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="edit_customers">Edit Customers</string>
+    <string name="delete_customers">Delete Customers</string>
+    <string name="edit_customers_sizes">Edit Customers Sizes</string>
+
+    <!-- Apparel Selector Activity String Resources -->
+    <string name="delete_size_record">Delete</string>
+    <string name="save_size_record">Save</string>
+
+    <string name="enter_half_back">Enter half back:</string>
+    <string name="half_back">Half Back</string>
+    <string name="my_shop_fragment">My Shop Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="report_bug_fragment">Report Bug Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="choose_one_from_below_options">Choose One from below options:</string>
+    <string name="tailor">Tailor</string>
+    <string name="customer">Customer</string>
+
+    <!-- Apparel Item XML String Resources -->
+    <string name="apparel">Apparel</string>
+    <string name="apparel_image">Apparel Image</string>
+
+    <!-- No Customer Yet XML String Resources -->
+    <string name="no_customer_yet">Add Customers To Display Here…</string>
+
+    <!-- Fragment Recycler View Employee Record String Resources -->
+    <string name="add_employee">Add Employee</string>
+
+    <!-- Fragment Recycler View Employee Record String Resources -->
+    <string name="emp_id">Employee ID: %d</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="emp_num_suits">No. of Suits: %d</string>
+    <string name="emp_phone">tel: %s</string>
+    <string name="edit_employee">Edit Employee Details</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="increment_suit">Increment Number Of Suits</string>
+    <string name="emp_payments">Employee Payments</string>
+
+    <!-- Dialog Add New Employee String Resources -->
+    <string name="add_emp">Add Employee</string>
+    <string name="enter_emp_id">Enter Employee ID:</string>
+    <string name="employee_id">Identification Number</string>
+    <string name="enter_emp_name">Enter Employee Name:</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="enter_emp_phone_number">Enter Employee Phone Number:</string>
+    <string name="employee_phone_number">Employee Phone Number</string>
+
+    <!-- Activity Edit Employee Details String Resources -->
+    <string name="enter_num_suit">Enter Number of Suits: </string>
+    <string name="num_suits">Number of Suits</string>
+    <string name="emp_id2">Employee ID</string>
+
+    <!-- Activity Employee Payment String Resources -->
+    <string name="num_suit">Number of Suits:</string>
+    <string name="enter_per_suit_wage">Enter Per Suit Wage: </string>
+    <string name="per_suit_wage">Per Suit Wage</string>
+    <string name="pay">Pay</string>
+    <string name="zero">0</string>
+
+    <!-- Dialog Order Layout String Resources -->
+    <string name="deliver_date">Deliver Date</string>
+    <string name="order_id">Order ID: %d</string>
+    <string name="payment_order">Payment : %.2f</string>
+
+    <string name="edit_order_details">Edit Order Details:</string>
+    <string name="mark_as_complete">Mark as complete</string>
+    <string name="delete_orders">Delete Orders</string>
+    <string name="enter_order_id">Enter Order ID:</string>
+    <string name="enter_order_price">Enter Order Price:</string>
+    <string name="assign_order_id">Assign Order ID:</string>
+    <string name="assign_employee_id">Assign Employee ID</string>
+    <string name="assign_payment">Assign Payment for Order</string>
+    <string name="pick_customer_id">Pick Customer ID</string>
+    <string name="pick_employee_id">Pick Employee ID</string>
+    <string name="pick_date">Pick Date</string>
+
+    <string name="pick_order_deliver_date">Pick Order Deliver Date</string>
+</resources>

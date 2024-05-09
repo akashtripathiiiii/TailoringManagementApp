@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTailorName"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_your_full_name" />
+
+        <EditText
+            android:id="@+id/editTextTailorName"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_name"
+            android:inputType="text"
+            android:autofillHints="Tailor Name"/>
+
+        <TextView
+            android:id="@+id/textViewTailorAge"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_your_age" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_age"
+            android:inputType="number"
+            android:autofillHints="Tailor Age"/>
+
+        <TextView
+            android:id="@+id/textViewTailorEmail"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_your_email" />
+
+        <EditText
+            android:id="@+id/editTextTailorEmailAddress"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="Tailor Email Address"/>
+
+        <TextView
+            android:id="@+id/textViewTailorPhone"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_your_phone_number" />
+
+        <EditText
+            android:id="@+id/editTextTailorPhone"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_phone_number"
+            android:inputType="phone"
+            android:autofillHints="Tailor Phone Number"/>
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_your_password" />
+
+        <EditText
+            android:id="@+id/editTextTailorPassword"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_password"
+            android:inputType="textPassword"
+            android:autofillHints="Create Your Password"/>
+
+        <TextView
+            android:id="@+id/textViewConfirmTailorPassword"
+            style="@style/text_view_login_signup"
+            android:text="@string/retype_password" />
+
+        <EditText
+            android:id="@+id/editTextConfirmTailorPassword"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Confirm Password"
+            android:ems="10"
+            android:hint="@string/tailor_confirm_password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textViewTailorShopName"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_shop_name" />
+
+        <EditText
+            android:id="@+id/editTextTailorShopName"
+            style="@style/edit_text_login_signup"
+            android:ems="10"
+            android:hint="@string/tailor_shop_name"
+            android:inputType="text"
+            android:autofillHints="Tailor Shop Name"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_tailor_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_tailor_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Main_Theme"
+        tools:targetApi="31">
+        <activity
+            android:name=".employeePageForTailors.EmployeePayment"
+            android:exported="false" />
+
+        <activity
+            android:name=".employeePageForTailors.EditEmployeeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditCustomerInfo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityEditCustomerSizes"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.tailoringmanagement.orderPageForTailors.EditOrderDetails"
+            android:label="Edit Order Details"
+            android:exported="false" />
+
+        <activity
+            android:name=".apparel.ActivityApparelSelector"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SizesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChattingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SIgnUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StartUpActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.HomeScreenActivity"
+            android:exported="false"
+            android:theme="@style/Main_Theme_NoActionBar" />
+    </application>
+
+</manifest>

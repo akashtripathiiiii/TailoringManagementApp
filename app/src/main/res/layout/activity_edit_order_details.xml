@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".employeePageForTailors.EditEmployeeDetails">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearEditLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvEditOrderID"
+                style="@style/text_view_login_signup"
+                android:text="@string/enter_order_id" />
+
+            <EditText
+                android:id="@+id/inputEditOrderID"
+                style="@style/edit_text_login_signup"
+                android:hint="@string/assign_order_id"
+                android:autofillHints="Order ID"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvEditCustomerID"
+                style="@style/text_view_login_signup"
+                android:text="@string/pick_customer_id" />
+
+            <!-- Customer ID Picker -->
+            <NumberPicker
+                android:id="@+id/npEditCustomerID"
+                style="@style/picker_view"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tvEditEmployeeID"
+                style="@style/text_view_login_signup"
+                android:text="@string/pick_employee_id" />
+
+            <!-- Employee ID Picker -->
+            <NumberPicker
+                android:id="@+id/npEditEmployeeID"
+                style="@style/picker_view"
+                />
+
+            <TextView
+                android:id="@+id/tvEditOrderPrice"
+                style="@style/text_view_login_signup"
+                android:text="@string/enter_order_price" />
+
+            <EditText
+                android:id="@+id/inputEditOrderPrice"
+                style="@style/edit_text_login_signup"
+                android:hint="@string/assign_payment"
+                android:autofillHints="Employee ID"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/tvEditDeliverDate"
+                style="@style/text_view_login_signup"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pick_order_deliver_date" />
+
+            <!-- Order Deliver Date Picker -->
+            <Button
+                android:id="@+id/btnEditPickDate"
+                style="@style/button_style"
+                android:text="@string/pick_date"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearEditLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnCancelEditingOrder"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btnDeleteOrder"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/delete_size_record" />
+
+        <Button
+            android:id="@+id/btnSaveOrder"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/save_size_record" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

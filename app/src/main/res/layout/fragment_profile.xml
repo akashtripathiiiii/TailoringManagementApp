@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/text_view_login_signup"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Doe" />
+
+    <TextView
+        style="@style/text_view_login_signup"
+        android:text="Age" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30" />
+
+    <TextView
+        style="@style/text_view_login_signup"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="johndoe@example.com" />
+
+    <TextView
+        style="@style/text_view_login_signup"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*********" />
+
+    <TextView
+        style="@style/text_view_login_signup"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234567890" />
+
+</LinearLayout>

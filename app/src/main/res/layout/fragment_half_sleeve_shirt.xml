@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/fragment_half_sleeve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/shirtBottomDesign"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_shirt_bottom_design"
+            />
+
+        <EditText
+            android:id="@+id/inputHemlineDesign"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Shirt Bottom Design"
+            android:ems="10"
+            android:hint="@string/shirt_bottom_design"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/strapDesign"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_strapdesign"
+            />
+
+        <EditText
+            android:id="@+id/inputStrapDesign"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Strap Design"
+            android:ems="10"
+            android:hint="@string/strap_design"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+</ScrollView>

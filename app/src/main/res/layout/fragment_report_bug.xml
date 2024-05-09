@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report a Bug"
+        style="@style/text_view_login_signup"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextBugTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_text_login_signup"
+        android:hint="Bug Title"
+        android:padding="16dp"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:id="@+id/editTextBugDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_text_login_signup"
+        android:hint="Bug Description"
+        android:padding="16dp"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minLines="4"
+        android:maxLines="6"/>
+
+    <Button
+        android:id="@+id/buttonSubmitBug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_style"
+        android:text="Submit Bug"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+</LinearLayout>

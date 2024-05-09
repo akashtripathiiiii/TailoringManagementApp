@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/frontLength"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_front_length"
+        />
+    <EditText
+        android:id="@+id/inputfrontLength"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Front Length"
+        android:ems="10"
+        android:hint="@string/front_length"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/backLength"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_back_length"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/inputBackLength"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Back Length"
+        android:ems="10"
+        android:hint="@string/back_length"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/waist"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_waist"
+        />
+
+    <EditText
+        android:id="@+id/inputWaist"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Waist of Cloth"
+        android:ems="10"
+        android:hint="@string/waist"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/seat"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_seat_length"
+        />
+
+    <EditText
+        android:id="@+id/inputSeatLength"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Seat Length"
+        android:ems="10"
+        android:hint="@string/seat_length"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/shoulderWidth"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_shoulder_width"
+        />
+
+    <EditText
+        android:id="@+id/inputShoulderWidth"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Shoulder Width"
+        android:ems="10"
+        android:hint="@string/shoulder_width"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/chest"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_chest_length"
+        />
+
+    <EditText
+        android:id="@+id/inputChestLength"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Chest Length"
+        android:ems="10"
+        android:hint="@string/chest_length"
+        android:inputType="numberDecimal"
+
+        />
+
+
+</LinearLayout>
+</ScrollView>
+
+

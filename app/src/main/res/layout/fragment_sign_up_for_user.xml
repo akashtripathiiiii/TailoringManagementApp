@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/nameTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputName"
+            android:text="@string/enter_your_full_name"
+            />
+
+        <EditText
+            android:id="@+id/signUpName"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="username or email"
+            android:ems="10"
+            android:hint="@string/cus_name"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/ageTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputAge"
+            android:text="@string/enter_your_age"
+           />
+
+        <EditText
+            android:id="@+id/signUpAge"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Customer Age"
+            android:ems="10"
+            android:hint="@string/cust_age"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/numberTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputNumber"
+            android:text="@string/enter_your_phone_number"
+           />
+
+        <EditText
+            android:id="@+id/signUpPhone"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="phone"
+            android:ems="10"
+            android:hint="@string/cust_phone_number"
+            android:inputType="phone"
+         />
+
+        <TextView
+            android:id="@+id/emailTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputEmail"
+            android:text="@string/enter_your_email"
+             />
+
+        <EditText
+            android:id="@+id/signUpEmail"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="emailAddress"
+            android:ems="10"
+            android:hint="@string/cust_email_address"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:id="@+id/passwordTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputPassword"
+            android:text="@string/enter_your_password"
+            />
+
+        <EditText
+            android:id="@+id/signUpPassword"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="password"
+            android:hint="@string/cust_password"
+            android:ems="10"
+            android:inputType="textPassword"
+             />
+
+        <TextView
+            android:id="@+id/confirmPasswordTV"
+            style="@style/text_view_login_signup"
+            android:labelFor="@+id/inputPassword"
+            android:text="@string/confirm_password"
+            />
+
+        <EditText
+            android:id="@+id/signUpConfirmPassword"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="password"
+            android:hint="@string/cust_retype_password"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
+        <TextView
+            android:id="@+id/tvOption"
+            style="@style/text_view_login_signup"
+            android:layout_width="wrap_content"
+            android:text="@string/choose_one_from_below_options" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rBTailor"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/tailor" />
+
+            <RadioButton
+                android:id="@+id/rBCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/customer" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

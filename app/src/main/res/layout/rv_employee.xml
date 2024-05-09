@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="8dp"
+    android:elevation="300dp"
+    app:cardElevation="30dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/tvEmpID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/emp_id"
+            android:textColor="@color/blue_702"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEmpName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/emp_name"
+            android:textColor="@color/blue_702"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/tvEmpID"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmpID" />
+
+        <TextView
+            android:id="@+id/tvEmpNumSuits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/emp_num_suits"
+            android:textColor="@color/blue_702"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/tvEmpName"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmpName" />
+
+        <TextView
+            android:id="@+id/tvEmpPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/emp_phone"
+            android:textColor="@color/blue_702"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvEmpNumSuits"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmpNumSuits" />
+
+        <ImageButton
+            android:id="@+id/btnEditEmpDetails"
+            style="@style/image_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:contentDescription="@string/edit_employee"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/btnIncrementSuit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/edit_icon" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteEmp"
+            style="@style/image_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/delete_employee"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnEditEmpDetails"
+            app:layout_constraintEnd_toStartOf="@+id/btnEditEmpDetails"
+            app:srcCompat="@drawable/delete_icon" />
+
+        <ImageButton
+            android:id="@+id/btnIncrementSuit"
+            style="@style/image_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/increment_suit"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnEditEmpDetails"
+            app:srcCompat="@drawable/baseline_plus_one_24" />
+
+        <ImageButton
+            android:id="@+id/btnEmpPayment"
+            style="@style/image_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/emp_payments"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnIncrementSuit"
+            app:layout_constraintEnd_toEndOf="@+id/btnDeleteEmp"
+            app:layout_constraintEnd_toStartOf="@+id/btnIncrementSuit"
+            app:srcCompat="@drawable/baseline_attach_money_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

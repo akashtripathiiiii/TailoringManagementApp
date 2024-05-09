@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/fragment_upper_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/sleevelen"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_sleeve_length"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/inputthighwidth"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Sleeve Length"
+            android:ems="10"
+            android:hint="@string/sleeve_length"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:id="@+id/bicep"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_bicep_length"
+
+            />
+
+        <EditText
+            android:id="@+id/inputkneewidth"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Knee Width of Pant"
+            android:ems="10"
+            android:hint="@string/bicep_length"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/cuff"
+            style="@style/text_view_login_signup"
+            android:text="@string/enter_cuff_length"
+            />
+
+        <EditText
+            android:id="@+id/inputCuffLength"
+            style="@style/edit_text_login_signup"
+            android:autofillHints="Cuff length"
+            android:ems="10"
+            android:hint="@string/cuff_length"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+</ScrollView>

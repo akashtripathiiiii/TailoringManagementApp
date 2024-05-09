@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "267186610468",
+    "project_id": "tailorapp-238b5",
+    "storage_bucket": "tailorapp-238b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267186610468:android:4469a50da30ad84ee553b1",
+        "android_client_info": {
+          "package_name": "com.example.tailoringmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu55EYw1TB6QwO4l-9hqdIS3_g0ZC3sdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

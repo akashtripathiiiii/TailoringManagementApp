@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditCustomerInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNewCustomerId"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_id"
+        />
+    <EditText
+        android:id="@+id/inputCustomerID"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer ID (optional) "
+        android:ems="10"
+        android:hint="@string/identification_number_optional"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tvNewCustomerName"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_name"
+        />
+
+    <EditText
+        android:id="@+id/inputCustomerName"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer Name"
+        android:ems="10"
+        android:hint="@string/customer_name"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/tvNewCustomerPhoneNumber"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_customer_phone_number"
+        />
+
+    <EditText
+        android:id="@+id/inputCustomerPhoneNumber"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Customer Phone Number"
+        android:ems="10"
+        android:hint="@string/customer_phone_number"
+        android:inputType="phone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelEditingCustomer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btnDeleteCustomer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/delete_size_record" />
+
+        <Button
+            android:id="@+id/btnSaveCustomer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/save_size_record" />
+    </LinearLayout>
+
+</LinearLayout>

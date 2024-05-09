@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+    <include
+        layout="@layout/content_lower_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/thighwidth"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_thigh_width"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/inputthighwidth"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Thigh Width of Pant"
+        android:ems="10"
+        android:hint="@string/thigh_width"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/kneewidth"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_knee_width"
+
+        />
+
+    <EditText
+        android:id="@+id/inputkneewidth"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Knee Width of Pant"
+        android:ems="10"
+        android:hint="@string/knee_width"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/backrise"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_back_rise"
+        />
+
+    <EditText
+        android:id="@+id/inputbackrise"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="Back Rise of Pant"
+        android:ems="10"
+        android:hint="@string/back_rise"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/inSeamLength"
+        style="@style/text_view_login_signup"
+        android:text="@string/enter_inseam_length"
+        />
+
+    <EditText
+        android:id="@+id/inputInSeamLength"
+        style="@style/edit_text_login_signup"
+        android:autofillHints="In Seam Length of Pant"
+        android:ems="10"
+        android:hint="@string/in_seam_length"
+        android:inputType="numberDecimal"
+        />
+</LinearLayout>
+</ScrollView>
